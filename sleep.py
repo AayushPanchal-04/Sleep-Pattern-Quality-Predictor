@@ -305,4 +305,5 @@ elif page == "Make Predictions":
 
 # Footer
 st.markdown("---")
-st.markdown("Built with ❤️ using Streamlit")
+
+st.markdown("Built By Aayush Panchal")
