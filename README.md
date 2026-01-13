@@ -66,34 +66,17 @@ The Sleep Quality Predictor is an interactive web application that analyzes the 
 
 ### Steps
 
-1. **Clone the repository**
-```bash
-git clone https://github.com/abhigyaabs2/Sleep-Pattern-Quality-Predictor.git
-cd Sleep-Pattern-Quality-Predictor
-```
-
-2. **Create a virtual environment (recommended)**
-```bash
-python -m venv venv
-
-# On Windows
-venv\Scripts\activate
-
-# On macOS/Linux
-source venv/bin/activate
-```
-
-3. **Install required packages**
+1. **Install required packages**
 ```bash
 pip install -r requirements.txt
 ```
 
-4. **Run the application**
+2. **Run the application**
 ```bash
 streamlit run sleep.py
 ```
 
-5. **Open your browser**
+3. **Open your browser**
 The app will automatically open at `http://localhost:8501`
 
 ## 📦 Requirements
@@ -212,47 +195,15 @@ sleep-quality-predictor/
 - **[Matplotlib](https://matplotlib.org/)**: Plotting library
 - **[Joblib](https://joblib.readthedocs.io/)**: Model serialization
 
-## 🤝 Contributing
 
-Contributions are welcome! Here's how you can help:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-### Ideas for Contribution:
-- Add more machine learning models (XGBoost, SVM, Neural Networks)
-- Implement model comparison feature
-- Add data augmentation techniques
-- Create a mobile-responsive design
-- Add user authentication and history tracking
-- Implement A/B testing for different models
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - Dataset source: [Kaggle - Sleep Health and Lifestyle Dataset](https://www.kaggle.com/)
 - Inspired by health and wellness research
 - Thanks to the Streamlit community for excellent documentation
 - Special thanks to all contributors
 
-## 📈 Future Enhancements
 
-- [ ] Add more visualization options
-- [ ] Implement hyperparameter tuning
-- [ ] Add model explainability (SHAP values)
-- [ ] Create API endpoint for predictions
-- [ ] Add batch prediction functionality
-- [ ] Implement user feedback mechanism
-- [ ] Add sleep recommendations based on predictions
-- [ ] Multi-language support
 
----
 
-**⭐ If you found this project helpful, please consider giving it a star!**
+
