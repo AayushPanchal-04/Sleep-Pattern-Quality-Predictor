@@ -305,5 +305,9 @@ elif page == "Make Predictions":
 
 # Footer
 st.markdown("---")
+st.markdown("""
+<div style='text-align: center; font-weight: bold;'>
+    Built by Aayush Panchal
+</div>
+""", unsafe_allow_html=True)
 
-st.markdown("Built By Aayush Panchal")
