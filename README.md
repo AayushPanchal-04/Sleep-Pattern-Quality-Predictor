@@ -3,21 +3,6 @@
 A machine learning-powered web application built with Streamlit that predicts sleep quality based on health and lifestyle factors.
 
 
-## 📋 Table of Contents
-- [Overview](#overview)
-- [Features](#features)
-- [Demo](#demo)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Dataset](#dataset)
-- [Model](#model)
-- [Project Structure](#project-structure)
-- [Screenshots](#screenshots)
-- [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
-
 ## 🎯 Overview
 
 The Sleep Quality Predictor is an interactive web application that analyzes the relationship between various health metrics and sleep quality. It uses a Random Forest Classifier to predict sleep quality ratings based on factors such as:
